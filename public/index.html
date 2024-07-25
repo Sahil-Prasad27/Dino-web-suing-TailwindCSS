@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+        tailwind.config ={
+            theme: {
+                screens: {
+                    xs : "300px",
+                    sm : "640px",
+                    md : "768px",
+                    lg : "1024px",
+                    xl : "1280px",
+                    "2xl" : "1536px",
+                  }
+            }
+        }
+    </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+            <style>
+                *{
+                    font-family: "Poppins", sans-serif;
+                }
+            </style>
+    </head>
+    <body>
+        <header
+            class="flex justify-between p-3 bg-gray-400 h-[67px] items-center text-white font-medium">
+            <div class="text-[40px] font-bold"><span
+                    class="text-red-700">HARU</span> Dino</div>
+            <ul class="menu flex justify-end item-center gap-4">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </header>
+        <div
+            class="contain flex w-[100%] md:w-[80%] mx-auto justify-between items-center flex-col md:flex-row my-[100px] gap-[50px]">
+            <div class="container_body md:w-[60%] sm:w-[80%]">
+                <h2 class="text-3xl font-bold my-2 ">Dinosaur</h2>
+                <p>Dinosaurs are a diverse group of reptiles from the clade
+                    Dinosauria, first appearing about 230 million years ago.
+                    Dominating terrestrial ecosystems after the
+                    Triassic–Jurassic extinction event, they varied in size and
+                    form, from small, bird-like species to massive, long-necked
+                    giants. Dinosaurs are categorized into two main groups based
+                    on hip structure: Saurischia (lizard-hipped), including
+                    theropods like Tyrannosaurus rex and sauropodomorphs like
+                    Brachiosaurus, and Ornithischia (bird-hipped), including
+                    herbivores like Stegosaurus and Triceratops. Extinction
+                    events 66 million years ago largely wiped them out, except
+                    for the lineage that led to modern birds, their living
+                    descendants.</p>
+            </div>
+            <img src="img/dino.png" alt class="h-[500px] w-[500px]">
+        </div>
+
+        <div
+            class="cards flex flex-wrap w-[90%] md:w-80% mx-auto gap-[30px] sm:justify-center">
+            <div
+                class="card_body shadow-lg md:w-[30%] p-4 w-[300px] items-center ">
+                <img src="img\1.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Tyrannosaurus rex</h4>
+                <p class="text-center">Apex predator with strong jaws.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] p-4 w-[300px] items-center ">
+                <img src="img\2.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Triceratops</h4>
+                <p class="text-center">Three-horned herbivore with a large frill.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\3.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Stegosaurus</h4>
+                <p class="text-center">Herbivore with distinctive back plates.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\4.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Velociraptor</h4>
+                <p class="text-center">Small, agile predator with sharp claws.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\5.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Brachiosaurus</h4>
+                <p class="text-center">Long-necked herbivore, very tall stature.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\6.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Ankylosaurus</h4>
+                <p class="text-center">Armored dinosaur with a clubbed tail.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\7.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Spinosaurus</h4>
+                <p class="text-center">Large predator with a sail-like spine.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\8.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Pteranodon</h4>
+                <p class="text-center">Flying reptile with a large wingspan.</p>
+            </div>
+            <div
+                class="card_body shadow-lg md:w-[30%] sm p-4:w-[300px] items-cen ter">
+                <img src="img\9.jpg" alt class="h-60 w-60 rounded-md mx-auto">
+                <h4 class="text-center font-bold">Allosaurus</h4>
+                <p class="text-center">Large carnivorous dinosaur, fierce hunter.</p>
+            </div>
+        </div>
+        <footer class="text-center my-[50px] text-xl">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <p class="font-medium">@HARU</p>
+            
+        </footer>
+    </body>
+</html>
